@@ -17,7 +17,7 @@ body {
     height: 100vh;
     background-color: var(--bege);
     overflow-x: hidden;
-    font-family: var(--oswald), sans-serif;
+    font-family: var(--oswald);
 }
 header {
     width: 100%;
