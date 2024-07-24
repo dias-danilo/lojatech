@@ -5,7 +5,7 @@
  --laranja: rgb(255, 111,0);
  --cinza: rgb(51,51,51);
  --arredondar: 0.3rem;
- --oswald: "Oswald, sans-serif";
+ --oswald: "Oswald", sans-serif;
 }
 * {
     padding: 0;
@@ -38,7 +38,7 @@ header {
     width: 100%;
 }
 .conteudo_central {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--oswald);
     width: 100%;
     max-width: 100%;
     min-height: calc(100vh - 250px);
@@ -71,4 +71,5 @@ header {
     padding: .5rem 1rem;
     text-decoration: none;
     border-radius: var(--arredondar);
+    font-family: var(--oswald);
 }
